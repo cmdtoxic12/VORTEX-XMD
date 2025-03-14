@@ -5,11 +5,11 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "HansTz~1GEkgCjQ#72alkIIAJG4FbrjuMv2KopW53_V4JaNukOIsXlE2_k4",
 // add your Session Id 
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || "",
 // add your prifix for bot
-BOT_NAME: process.env.BOT_NAME || "𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃",
+BOT_NAME: process.env.BOT_NAME || "*NARUTO-MD BOT*",
 // add bot namw here for menu
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -17,11 +17,11 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "255756530143",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "233535679394",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃",
+OWNER_NAME: process.env.OWNER_NAME || "*LAST-WARNING*",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© 𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃*",
+DESCRIPTION: process.env.DESCRIPTION || "*© NARUTO-MD BOT*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/lvvpzw.jpeg",
 // add img for alive msg
@@ -39,7 +39,7 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS__MSG: process.env.AUTO_STATUS__MSG || "*👀 Seen by Vortex xmd 🚀*",
 // set the auto reply massage on status reply    
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
@@ -55,7 +55,7 @@ OWNER_REACT: process.env.OWNER_REACT || "false",
 // make it true or fasle for only react on owner msg only 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
